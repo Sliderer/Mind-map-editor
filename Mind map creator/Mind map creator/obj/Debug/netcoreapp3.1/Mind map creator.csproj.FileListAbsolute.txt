@@ -1,0 +1,54 @@
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Mind map creator.exe
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Mind map creator.deps.json
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Mind map creator.runtimeconfig.json
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Mind map creator.runtimeconfig.dev.json
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Mind map creator.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Mind map creator.pdb
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\Mind map creator.csproj.AssemblyReference.cache
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\Mind map creator_MarkupCompile.cache
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\Mind map creator_MarkupCompile.lref
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\Mind map creator.g.resources
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\Mind map creator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\Mind map creator.AssemblyInfoInputs.cache
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\Mind map creator.AssemblyInfo.cs
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\Mind map creator.csproj.CoreCompileInputs.cache
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\Mind map creator.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\Mind map creator.pdb
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\Mind map creator.genruntimeconfig.cache
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Haley.Abstractions.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Haley.Extensions.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Haley.Helpers.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Haley.IOC.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Haley.MVVM.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Haley.WPF.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\protobuf-net.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\protobuf-net.Core.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\System.Formats.Asn1.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\System.Management.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Cng.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Xml.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Management.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.AccessControl.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Cng.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\a6271\source\repos\Mind map creator\Mind map creator\obj\Debug\netcoreapp3.1\Mind map creator.csproj.CopyComplete
