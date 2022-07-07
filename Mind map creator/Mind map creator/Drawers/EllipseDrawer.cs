@@ -19,6 +19,7 @@ namespace Mind_map_creator
         {
             ellipseGenerator.SetCenter(e.GetPosition(null).X, e.GetPosition(null).Y);
             yield return ellipseGenerator.ellipse;
+            
         }
 
         public void MouseMove(object sender, MouseEventArgs e)

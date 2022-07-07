@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a6271\\source\\repos\\Mind map creator\\Mind map creator\\Mind map creator.csproj": {}
+    "C:\\Users\\a6271\\OneDrive\\Рабочий стол\\Repositoies\\Mind-map-editor\\Mind map creator\\Mind map creator\\Mind map creator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a6271\\source\\repos\\Mind map creator\\Mind map creator\\Mind map creator.csproj": {
+    "C:\\Users\\a6271\\OneDrive\\Рабочий стол\\Repositoies\\Mind-map-editor\\Mind map creator\\Mind map creator\\Mind map creator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a6271\\source\\repos\\Mind map creator\\Mind map creator\\Mind map creator.csproj",
+        "projectUniqueName": "C:\\Users\\a6271\\OneDrive\\Рабочий стол\\Repositoies\\Mind-map-editor\\Mind map creator\\Mind map creator\\Mind map creator.csproj",
         "projectName": "Mind map creator",
-        "projectPath": "C:\\Users\\a6271\\source\\repos\\Mind map creator\\Mind map creator\\Mind map creator.csproj",
+        "projectPath": "C:\\Users\\a6271\\OneDrive\\Рабочий стол\\Repositoies\\Mind-map-editor\\Mind map creator\\Mind map creator\\Mind map creator.csproj",
         "packagesPath": "C:\\Users\\a6271\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a6271\\source\\repos\\Mind map creator\\Mind map creator\\obj\\",
+        "outputPath": "C:\\Users\\a6271\\OneDrive\\Рабочий стол\\Repositoies\\Mind-map-editor\\Mind map creator\\Mind map creator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

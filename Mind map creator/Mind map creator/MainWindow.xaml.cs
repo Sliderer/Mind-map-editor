@@ -1,18 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Diagnostics;
 
 namespace Mind_map_creator
 {
@@ -33,14 +24,17 @@ namespace Mind_map_creator
         private Mode currentMode;
         private Mode selectedMode;
         private IDrawer currentDrawer;
-        private Shape lastShape;
+        private List<Shape> shapesList;
 
         public MainWindow()
         {
+            
             InitializeComponent();
+            ToolsBar.Width = 0;
             currentMode = Mode.Idle;
             selectedMode = Mode.Drawing;
             currentDrawer = new IdleDrawer();
+            shapesList = new List<Shape>();
         }
 
         private void ScaleValueChaned(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -59,13 +53,13 @@ namespace Mind_map_creator
 
         private void ToolsButton_Click(object sender, RoutedEventArgs e)
         {
-            if (ToolsBar.Visibility == Visibility.Visible)
+            if (ToolsBar.Width != 0)
             {
-                ToolsBar.Visibility = Visibility.Hidden;
+                ToolsBar.BeginAnimation(StackPanel.WidthProperty, AnimationsHolder.disactivateToolsBar);
             }
             else
             {
-                ToolsBar.Visibility = Visibility.Visible;
+                ToolsBar.BeginAnimation(StackPanel.WidthProperty, AnimationsHolder.activateToolsBar);
             }
         }
 
@@ -89,7 +83,7 @@ namespace Mind_map_creator
             {
                 shape.MouseDown += DeleteObject;
                 Canvas.Children.Add(shape);
-                lastShape = shape;
+                shapesList.Add(shape);
             }
         }
 
@@ -141,20 +135,15 @@ namespace Mind_map_creator
 
         private void Canvas_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyboardDevice.Modifiers == (ModifierKeys.Control) && e.Key == Key.Z && lastShape != null)
+            if (e.KeyboardDevice.Modifiers == (ModifierKeys.Control) && e.Key == Key.Z && shapesList.Count != 0)
             {
-                Canvas.Children.Remove(lastShape);
+                Canvas.Children.Remove(shapesList[shapesList.Count-1]);
             }
         }
 
         private void Rubber_Click(object sender, RoutedEventArgs e)
         {
             selectedMode = Mode.Wiping;
-        }
-
-        private void ColorPickerButton_Click(object sender, RoutedEventArgs e)
-        {
-            ColorPickerPanel.Visibility = Visibility.Visible;
         }
     }
 }

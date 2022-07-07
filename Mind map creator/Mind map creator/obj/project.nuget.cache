@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EYpJ6SYHv08OHjFbO8dmNkQKPg1ABxDDi8qTbjMUtKBlWNKTq/xMualaoYy9XeqqVef5elcD4M1rLyENPmGJqg==",
+  "dgSpecHash": "XE13A5jqPHtyDK9GCVbvQgnKMpdGheXIdsFHQ5auYmTYYE74LYUwP7WaBqQ+HItd0MnGxM4oKo0bjbYSg0i5Hg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\a6271\\source\\repos\\Mind map creator\\Mind map creator\\Mind map creator.csproj",
+  "projectFilePath": "C:\\Users\\a6271\\OneDrive\\Рабочий стол\\Repositoies\\Mind-map-editor\\Mind map creator\\Mind map creator\\Mind map creator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a6271\\.nuget\\packages\\haley.abstractions\\1.0.16\\haley.abstractions.1.0.16.nupkg.sha512",
     "C:\\Users\\a6271\\.nuget\\packages\\haley.extensions\\2.1.11\\haley.extensions.2.1.11.nupkg.sha512",

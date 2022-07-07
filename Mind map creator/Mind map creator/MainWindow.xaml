@@ -4,8 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Mind_map_creator"
-        xmlns:hm="http://schemas.hpod9.com/haley/mvvm"
-        xmlns:hw="http://schemas.hpod9.com/haley/wpf"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
         KeyDown="Canvas_KeyDown">
@@ -17,17 +16,10 @@
             </Border>
         </ControlTemplate>
 
-        <!--<Style TargetType="StackPanel">
-            <Style.Triggers>
-                <EventTrigger RoutedEvent="MouseEnter">
-                    <BeginStoryboard>
-                        <Storyboard>
-                            <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetProperty="MarginX"  To="50"/>
-                        </Storyboard>
-                    </BeginStoryboard>
-                </EventTrigger>
-            </Style.Triggers>
-        </Style>-->
+        <Style x:Key="StackPanelButton" TargetType="Button">
+            <Setter Property="Margin" Value="1"/>
+        </Style>
+
 
     </Window.Resources>
     <Grid>
@@ -37,9 +29,9 @@
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
 
+    
 
-
-        <Canvas Background="LightBlue"
+        <Canvas Background="White"
                 Panel.ZIndex="0"
                 Name="Canvas"
                 MouseMove="Canvas_MouseMove"
@@ -88,7 +80,7 @@
 
         </Button>
         
-        <Border Background="White" CornerRadius="10"
+        <!--<Border Background="White" CornerRadius="10"
                 Visibility="Visible"
                 Width="300" 
                 Height="260" 
@@ -96,26 +88,28 @@
                 VerticalAlignment="Top"
                 HorizontalAlignment ="Left"
                 Name="ColorPickerPanel">
-            <hw:ColorPicker />
-        </Border>
+    
+        </Border>-->
 
 
         <StackPanel Name="ToolsBar"
                     Visibility="Visible"
                     Background="Wheat"
-                    Width="100"
+                    Width="105"
                     Height="200"
                     VerticalAlignment="Top"
                     HorizontalAlignment="Left"
                     Margin="50,100,0,0"
-                    Orientation="Vertical">
+                    Orientation="Vertical"
+                    >
 
             <StackPanel Orientation="Horizontal">
                 <Button Height="25"
                         Width="35"
                         Name="Drawpolyline" 
                         Click="Drawpolyline_Click"
-                        Content="Draw">
+                        Content="Draw"
+                        Style="{StaticResource StackPanelButton}">
 
                 </Button>
 
@@ -123,7 +117,8 @@
                         Width="65"
                         Name="DrawRectangle" 
                         Click="DrawRectangle_Click"
-                        Content="Rectangle">
+                        Content="Rectangle"
+                        Style="{StaticResource StackPanelButton}">
 
                 </Button>
             </StackPanel>
@@ -133,10 +128,14 @@
                         Width="50"
                         Name="DrawElipse" 
                         Click="DrawElipse_Click"
-                        Content="Elipse">
+                        Content="Elipse"
+                        Style="{StaticResource StackPanelButton}"
+                        >
 
                 </Button>
-                <Button Height="25"
+                <Button
+                        Style="{StaticResource StackPanelButton}"
+                        Height="25"
                         Width="50"
                         Name="DrawLine" 
                         Click="DrawLine_Click"
@@ -145,8 +144,7 @@
                 </Button>
             </StackPanel>
 
-            <TextBlock Text="Thinknes"/>
-            <Slider Minimum="1" Maximum="10" Name="StrokeThicknes" ValueChanged="StrokeThicknes_ValueChanged" Margin="10"/>
+        
 
 
             <StackPanel Orientation="Horizontal">
@@ -154,7 +152,9 @@
                     Width="50"
                     Height="25"
                     Content="Wipe"
-                    Click="Rubber_Click">
+                    Click="Rubber_Click"
+                    Style="{StaticResource StackPanelButton}"
+>
 
                 </Button>
                 
@@ -162,11 +162,19 @@
                     Width="50"
                     Height="25"
                     Content="Color"
-                    Click="ColorPickerButton_Click">
+                    Style="{StaticResource StackPanelButton}"
+                    >
 
                 </Button>
             </StackPanel>
+            
+            
+            <StackPanel>
+           
+            </StackPanel>
 
+            <TextBlock Text="Thinknes"/>
+            <Slider Minimum="1" Maximum="10" Name="StrokeThicknes" ValueChanged="StrokeThicknes_ValueChanged" Margin="10"/>
         </StackPanel>
 
     </Grid>
